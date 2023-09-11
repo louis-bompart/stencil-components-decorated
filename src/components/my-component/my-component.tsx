@@ -1,6 +1,10 @@
 import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
 
+function Foo() {
+  return (_a,_b) => {}
+}
+
 @Component({
   tag: 'my-component',
   styleUrl: 'my-component.css',
@@ -20,7 +24,7 @@ export class MyComponent {
   /**
    * The last name
    */
-  @Prop() last: string;
+  @Prop() @Foo() last: string;
 
   private getText(): string {
     return format(this.first, this.middle, this.last);
