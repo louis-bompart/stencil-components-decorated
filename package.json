@@ -33,6 +33,7 @@
     "@types/node": "^16.18.11",
     "jest": "^27.5.1",
     "jest-cli": "^27.5.1",
+    "patch-package": "^8.0.0",
     "puppeteer": "^21.0.3"
   },
   "license": "MIT"
