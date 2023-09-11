@@ -3,14 +3,14 @@
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
     "declaration": false,
-    "experimentalDecorators": true,
+    "experimentalDecorators": false,
     "lib": [
       "dom",
       "es2017"
     ],
     "moduleResolution": "node",
     "module": "esnext",
-    "target": "ES2022",
+    "target": "ESNext",
     "useDefineForClassFields": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,

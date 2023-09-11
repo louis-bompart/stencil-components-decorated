@@ -2,7 +2,9 @@ import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
 
 function Foo() {
-  return (_a,_b) => {}
+  return (_a,_b) => {
+    console.log(`decorator!`,_a,_b)
+  }
 }
 
 @Component({
